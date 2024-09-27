@@ -19,15 +19,27 @@
       </div>
 
       <div id="game-container">
-        <div>
+        <div id="game-stats">
           <h2>Stats</h2>
-          <p>Score: <span id="score">0</span></p>
-          <p>Lives: <span id="lives">3</span></p>
+          <div class="speed">
+            <div>Score:</div>
+            <span id="score">0</span>
+          </div>
+          <div class="speed">
+            <div>Lives:</div>
+            <span id="lives">0</span>
+          </div>
+          <div class="speed">
+            <div>speed X:</div>
+            <span id="speed-x">0</span>
+          </div>
+          <div class="speed">
+            <div>Speed Y:</div>
+            <span id="speed-y">0</span>
+          </div>
         </div>
         <!-- #game-screen is initially hidden using CSS style display: none -->
-        <div id="game-screen">
-          <h1>TEST</h1>
-        </div>
+        <div id="game-screen"></div>
       </div>
 
       <!-- #game-end is initially hidden using CSS style display: none -->

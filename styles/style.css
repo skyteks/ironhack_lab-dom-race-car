@@ -14,6 +14,22 @@ body {
   justify-content: center;
 }
 
+#game-stats
+{
+  font-family: Consolas, monaco, monospace;
+  padding-right: 50px;
+  width: 200px;
+  text-align: left;
+}
+
+.speed
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+}
+
 #game-screen {
   display: none;
   align-content: center;
