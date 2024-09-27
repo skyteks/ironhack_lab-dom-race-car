@@ -5,6 +5,7 @@ window.onload = function () {
   startButton.addEventListener("click", function () {
     startGame();
   });
+  restartButton.addEventListener("click", () => location.reload());
 
   function startGame() {
     console.log("start game");

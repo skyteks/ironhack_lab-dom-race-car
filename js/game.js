@@ -15,8 +15,8 @@ class Game {
     }
 
     start() {
-        this.gameScreen.width = this.width;
-        this.gameScreen.height = this.height;
+        this.gameScreen.width = this.width + "px";
+        this.gameScreen.height = this.height + "px";
         this.startScreen.style.display = "none";
         this.gameScreen.style.display = "block";
         this.gameIntervalId = setInterval(this.gameLoop.bind(this), this.gameLoopFrecuency);
