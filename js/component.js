@@ -8,13 +8,13 @@ class Component {
         this.directionX = 0;
         this.directionY = 0;
         this.element = document.createElement("img");
-        this.gameScreen.appendChild(this.element);
         this.element.src = imgSrc;
         this.element.style.position = "absolute";
         this.element.style.width = this.width + "px";
         this.element.style.height = this.height + "px";
         this.element.style.left = this.x + "px";
         this.element.style.top = this.y + "px";
+        this.gameScreen.appendChild(this.element);
         this.speed = speed;
     }
 

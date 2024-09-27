@@ -29,7 +29,7 @@ class Game {
         this.gameIsOver = true;
 
         this.gameScreen.style.display = "none";
-        this.gameEndScreen.style.display = "block";
+        this.endScreen.style.display = "block";
     }
 
     update() {
